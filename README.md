@@ -58,4 +58,5 @@ Considering the budgetary constrains of the client and the hardware requirements
 
 # Criteria D: Functionality
 
-A 7 min video demonstrating the proposed solution with narration
+A 7 min video demonstrating the proposed solution with narration 
+weourhweuo
