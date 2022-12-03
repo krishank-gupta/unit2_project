@@ -5,6 +5,7 @@
 ## Criteria A: Planning
 
 ## Problem definition
+Dr. Ruben wants to start a marijuana farm. He wants a software that will tell him temperature of his farm and his dormitory room where he keeps the harvested marijuana in. He wants to make sure that the marijuana is in the ideal temperature for growth and for storage. He wants adequate precision because marijuana needs specific temperature and humidity to grow or it will die. The temperature of the farm and storage rooms are controlled so that the temperature range will always be between 0° and 50°C and the humidity will always be between 20% and 90%. After getting the temperature and humidity data, Dr. Ruben will manually change his heaters and humidifers. He wants the software to predict the temperature and humidity for the next 12 hours so that if he needs to change the heater and humidifer settings, he can be prepared. Since it is a small business that's just starting, he wants to keep the costing to a minimum. 
 
 ## Proposed Solution
 Considering the client requirements an adequate solution includes a low cost sensing device for humidity and temperature and a custom data script that process and anaysis the samples acquired. For a low cost sensing device an adequate alternative is the DHT11 sensor[^1] which is offered online for less than 5 USD and provides adequare precision and range for the client requirements (Temperature Range: 0°C to 50°C, Humidity Range: 20% to 90%). Similar devices such as the DHT22, AHT20 or the AM2301B [^2] have higher specifications, however the DHT11 uses a simple serial communication (SPI) rather than more eleborated protocols such as the I2C used by the alternatives. For the range, precision and accuracy required in this applicaiton the DHT11 provides the best compromise. Connecting the DHT11 sensor to a computer requires a device that provides a Serial Port communication. A cheap and often used alternative for prototyping is the Arduino UNO microcontroller [^3]. "Arduino is an open-source electronics platform based on easy-to-use hardware and software"[^4]. In additon to the low cost of the Arduino (< 6USD), this devide is programable and expandable[^1]. Other alternatives include diffeerent versions of the original Arduino but their size and price make them a less adequate solution.
@@ -59,4 +60,4 @@ Considering the budgetary constrains of the client and the hardware requirements
 # Criteria D: Functionality
 
 A 7 min video demonstrating the proposed solution with narration 
-weourhweuo
+
