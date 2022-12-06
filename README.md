@@ -44,10 +44,11 @@ Considering the budgetary constrains of the client and the hardware requirements
 
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Write the Problem context                        | 10min         | Nov 22                 | A         |
-
+| Task No | Planned Action                                                                   | Planned outcome                                                                                  | Time estimate | Target completion date | Criterion |
+|:-------:|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------|:----------------------:|-----------|
+| 1       |                           Write the problem definition                           | Have a problem definition matching with the proposed solution                                    |     10 min    | Dec 04                 | A         |
+| 2       |                               Create system diagram                              | To have a clear idea of the hardware and software  requirements for the proposed solution        |     15 min    | Dec 07                 | B         |
+| 3       |                       Adding the new sensors to  the server                      |                                Having stored sensors in the server                               |     20 min    | Dec 04                 | C         |
 ## Test Plan
 
 # Criteria C: Development
