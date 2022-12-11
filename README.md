@@ -57,6 +57,14 @@ Considering the budgetary constrains of the client and the hardware requirements
 # Criteria C: Development
 
 ## List of techniques used
+1. Lists
+2. Functions
+3. For/while loops
+4. If,elif,else statements
+5. List Comprehension(Not sure if we used this but I kind of think)
+6. Dictionaries
+7. Pyplot from matplotlib
+8. Numpy
 
 ## Development
 
