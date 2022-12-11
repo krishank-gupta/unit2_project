@@ -39,10 +39,19 @@ Considering the budgetary constrains of the client and the hardware requirements
 
 
 ## Record of Tasks
-| Task No | Planned Action                                                                   | Planned outcome                                                                                  | Time estimate | Target completion date | Criterion |
-|:-------:|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------|:----------------------:|-----------|
-| 1       |                           Write the problem definition                           | Have a problem definition matching with the proposed solution                                    |     10 min    | Dec 04                 | A         |
-| 4       |                       Adding the new sensors to  the server                      |                                Having stored sensors in the server                               |     20 min    | Dec 04                 | C         |
+| Task No | Planned Action                                     | Planned outcome                                                                                        | Time estimate | Target completion date | Criterion |
+|---------|----------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Write the problem definition                       | Have a problem definition matching with the proposed solution                                          | 10 min        | Dec 03                 | A         |
+| 2       | Planning how the circuit should be  built          | Have a clear idea of what the circuit should look like  before starting to making.                     | 20 min        | Dec 03                 | A         |
+| 3       | Completing the circuit for the   sensors           | Have circuit ready to start collecting data                                                            | 30 min        | Dec 03                 | C         |
+| 4       | Drawing the flow diagram for adding  a new user    | Have a clear idea of the operation and have a better understaing about how the code should be written  | 10 min        | Dec 04                 | B         |
+| 5       | Adding new user to the server                      | Have an unique user for the project                                                                    | 10 min        | Dec 04                 | C         |
+| 6       | Drawing the flow diagram for adding  new sensors   | Have a clear idea of the operation and have a better  understaing about how the code should be written | 15 min        | Dec 04                 | B         |
+| 7       | Adding the new sensors to the server               | Having stored sensors in the server                                                                    | 20 min        | Dec 04                 | C         |
+| 8       | Created the loop to upload the data  to the server | Uploading the data gotten by the sensors to the main server                                            | 10 min        | Dec 05                 | C         |
+| 9       | Creating the graphs                                | Have a visual representation of the data obtained by the  sensors inside and outside the dormitory.    | 1 hr          | Dec 13                 | C         |
+| 10      | Creating the poster                                | Have a summary of introduction, materials and methods,  results, conclusions and references            | 1 hr          | Dec 13                 | C         |
+| 11      | Creating the video                                 | Present how the solution works using the poster created  earlier                                       | 30 mins       | Dec 13                 | C         |
 ## Test Plan
 
 # Criteria C: Development
