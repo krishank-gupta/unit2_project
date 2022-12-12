@@ -62,7 +62,7 @@ def get_data(id):
     # Get data from server
     response = requests.get("http://192.168.6.142/readings")
     data = response.json()
-    data = data['readings'][0]
+    all_data = data['readings'][0]
     
     # Init empty list to append data 
     output = []
@@ -70,8 +70,8 @@ def get_data(id):
     # For every item in data
     for i in range(0, len(data), 1):
         # If item matches required ID, append to output list
-        if data[i]['sensor_id'] == id:
-            output.append(data[i]['value'])
+        if all_data[i]['sensor_id'] == id:
+            output.append(all_data[i]['value'])
     
     # Return output list
     return output
