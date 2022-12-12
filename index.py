@@ -13,7 +13,7 @@ gpios = [4,27,22,23]
 
 new_user = {
     "username": "Krish&Thumula",
-    "password": "420deeznuts69"
+    "password": "#############"
 }
 
 # Create the new user
@@ -21,7 +21,7 @@ new_user = {
 
 user = {
     "username": "Krish&Thumula",
-    "password": "420deeznuts69"
+    "password": "#############"
 }
 
 # Create sensors for the user:
