@@ -1,9 +1,31 @@
 Lists
+
+List Comprehension
+
+List slicing
+
+List indexing
+
 Functions
+
 For/while loops
-If,elif,else statements
-List Comprehension(Not sure if we used this but I kind of think)
+
+Range
+
+Comments
+
+Conditional statements
+
 Dictionaries
+
 Pyplot from matplotlib
-Numpy
+
+Numpy library
+
+datetime library
+
+Adafruit_DHT library
+
+Requests library
+
 API commands
