@@ -94,7 +94,7 @@ Considering the budgetary constrains of the client and the hardware requirements
 
 ## Development
 ### Code
-### Create new sensors
+#### Create new sensors
 ```.py
 def create_sensors(auth):
     for i in range(1, 5, 1):
@@ -120,7 +120,7 @@ def create_sensors(auth):
 
 This function is designed to create four sensors in the server. First there is a for loop that will loop for four times and each time the loop is run, there will be  two temporary dictionaries created, and in the dictionaries it contains the name, the unit, the location and the type of each sensor. And after the dictionaries are  created the dictionaries are converted to JSON and then posted to http://192.168.6.142/sensor/new. And finally the function gives out the sensor id of the newly uploaded sensors' id and owner's id with details that were given when sensors were being uploaded to the server( name, unit, location and type).
 
-### Get authrization key
+#### Get authrization key
 
 ```.py
 def get_auth(user, url="http://192.168.6.142"):
@@ -132,7 +132,7 @@ def get_auth(user, url="http://192.168.6.142"):
 
 Purpose of this function is to get the authorization key from the server. The username and the password are inputted as a dictionary(user) to the function. Using the request library, the username and the password is sent to the server using post. Then then the access token is taken and converted using JSON. And then the access token is stored in a dictionary called auth and the key for the token is Authorization. Finally the function returns the dictionary auth.
 
-### Get data from the server
+#### Get data from the server
 
 ```.py
 def get_data(id):
