@@ -157,6 +157,14 @@ def get_data(id):
 This function can be used to get the readings from the registered sensors in "http://192.168.6.142". First the id of the sensor that the data is given is inputted as id. Then the function gets data from "http://192.168.6.142/readings" and then converts the data as JSON and is stored in the variable data. The readings of sensors are stored as data_all. Then the output list is created which is empty. Then for every item in data_all the program checks if the "sensor_id" is the same as id that was inputted at the beginning of the function. And if the "sensor_id" matches with the id the readings of the sensor(which is stored in the key "value") is appended to the output list. After the loop is completed the function returns the output list.
 
 ### Test plan
+| Description                             | Type           | Inputs | Outputs |
+|-----------------------------------------|----------------|--------|---------|
+| Representing graphs in different colors | Functional     |        |         |
+| Labels for axis                         | Functional     |        |         |
+| The background of the graphs            | Functional     |        |         |
+| User registration                       | Non-functional |        |         |
+| Posting new sensors                     | Non-functional |        |         |
+| Graphs                                  | Non-functional |        |         |
 
 # Criteria D: Functionality
 
