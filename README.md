@@ -33,10 +33,26 @@ Considering the budgetary constrains of the client and the hardware requirements
 
 # Criteria B: Design
 
+## System Diagram
 ![](https://github.com/krishank-gupta/unit2_project/blob/main/sysdim_hl.png.png)
 
-**Fig.1** shows the system diagram for the proposed solution (**HL**). The indoor variables will be measured using a Raspberry PI and four DHT11 sensors located inside a room. Four sensors are used to determine more precisely the physical values and include measurement uncertainty. The outdoor variables will be requested to the remote server using a GET request to the API of the server at ```192.168.6.147/readings```. The local values are stored in a CSV database locally and POST to the server using the API and TOKEN authentication. A laptop computer is used for remotely controlling the local Rasberry Pi using a Dekptop sharing application (VNC Viewer). (Optional) Data from the local raspberry is downloaded to the laptop for analysis and processing.
+**Fig.1:** This shows the system diagram for the proposed solution (**HL**). The indoor variables will be measured using a Raspberry PI and four DHT11 sensors located inside a room. Four sensors are used to determine more precisely the physical values and include measurement uncertainty. The outdoor variables will be requested to the remote server using a GET request to the API of the server at ```192.168.6.147/readings```. The local values are stored in a CSV database locally and POST to the server using the API and TOKEN authentication. A laptop computer is used for remotely controlling the local Rasberry Pi using a Dekptop sharing application (VNC Viewer). (Optional) Data from the local raspberry is downloaded to the laptop for analysis and processing.
 
+## Flow Diagrams
+### Registering a new user
+![](https://github.com/krishank-gupta/unit2_project/blob/main/New_user_%20flow_diagram.png)
+
+**Fig.2:** Flow diagram for the new user registration function
+
+### Adding four new sensors to the server
+![](https://github.com/krishank-gupta/unit2_project/blob/main/New_sensor_diagram.png)
+
+**Fig.3** Flow diagram for adding four new sensors to the server
+
+### Getting readings from server
+![](https://github.com/krishank-gupta/unit2_project/blob/main/Get_readings_diagram.png)
+
+**Fig.4** Flow diagram for getting readings from the server for a specific sensor id.
 
 ## Record of Tasks
 | Task No | Planned Action                                     | Planned outcome                                                                                        | Time estimate | Target completion date | Criterion |
