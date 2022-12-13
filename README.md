@@ -173,29 +173,29 @@ This function can be used to get the readings from the registered sensors in "ht
 
 ![remote_data](https://user-images.githubusercontent.com/50672613/207284768-683f30cb-169a-44c7-8828-7259c0e24eb0.png)
 
-This figure shows remote data. 
+**Fig.5:** This figure shows remote data. 
 
 ![remote_raw_temp](https://user-images.githubusercontent.com/50672613/207285460-36254f70-3c72-4f25-bd85-6a7a4b8977dd.png)
 
-This graph shows the raw temperature data of the campus
+**Fig.6:** This graph shows the raw temperature data of the campus
 
 ![remote_processed_temp](https://user-images.githubusercontent.com/50672613/207285747-1361978b-fcde-4ebc-885b-cb077d760c5d.png)
 
-This graph shows the smoothed version of the temperature data of the campus with non-linear model, 12 hour prediction, min, max, mean
+**Fig.7:** This graph shows the smoothed version of the temperature data of the campus with non-linear model, 12 hour prediction, min, max, mean
 
 ![remote_raw_humidity](https://user-images.githubusercontent.com/50672613/207286209-94b447b7-b9a8-4843-9b5d-5238e3ee540d.png)
 
-This graph shows the raw humidity data of the campus
+**Fig.8:** This graph shows the raw humidity data of the campus
 
 ![remote_processed_humidity](https://user-images.githubusercontent.com/50672613/207286266-0fc0f8f9-41e3-4d94-bbe0-0112d4d2ac9a.png)
 
-This graph shows the smoothed version of the humidity data of the campus with non-linear model, 12 hour prediction, min, max, mean
+**Fig.9:** This graph shows the smoothed version of the humidity data of the campus with non-linear model, 12 hour prediction, min, max, mean
 
 #### Local Smoothed Temperature Data
 
 ![local_smooth_data](https://user-images.githubusercontent.com/50672613/207284509-b3509199-bd5e-4baf-b98e-b89818ee5f7d.png)
 
-This figure shows the smoothed local temperature data
+**Fig.10:** This figure shows the smoothed local temperature data
 
 #### Random graph type 2
 #### Random graph type 3
