@@ -18,24 +18,31 @@ predicted data.
 
 **Fig.7:** This graph shows the smoothed version of the temperature data of the campus with non-linear model, 12 hour prediction, min, max, mean
 
+Temperature model formula: -0.00000x^3 + 0.00031x^2 + -0.84613x + 732.45433
+
 ##### Raw humidity
 ![remote_raw_humidity](https://user-images.githubusercontent.com/50672613/207286209-94b447b7-b9a8-4843-9b5d-5238e3ee540d.png)
 
 **Fig.8:** This graph shows the raw humidity data of the campus
 
-##### Smoothed temperature data
+##### Smoothed humidity data
 ![remote_processed_humidity](https://user-images.githubusercontent.com/50672613/207286266-0fc0f8f9-41e3-4d94-bbe0-0112d4d2ac9a.png)
 
 **Fig.9:** This graph shows the smoothed version of the humidity data of the campus with non-linear model, 12 hour prediction, min, max, mean
+
+Humidity model formula: 0.00000x^3 + -0.00256x^2 + 5.468367x + -3825.32962
 
 #### Local data
 ##### Smoothed temperature data
 ![local_smooth_data](https://user-images.githubusercontent.com/50672613/207284509-b3509199-bd5e-4baf-b98e-b89818ee5f7d.png)
 **Fig.10:** This graph shows the smoothed, raw temperature data of the room
 
+Temperature model formula: 0.00012x^3 + -0.02097x^2 + 0.84810x + 21.23204
+
 ##### Smoothed humidity data
 ![local_smooth_hum](https://user-images.githubusercontent.com/50672613/207313500-77b5cc88-730a-4441-87e6-fe21fcd57ae3.png)
 
+Humidity model formula: -0.00003x^3 + 0.00706x^2 + -0.443113x + 26.25557
 
 **Fig.11:** This graph shows the smoothed raw humidity data of the campus
 
