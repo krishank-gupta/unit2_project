@@ -33,15 +33,14 @@ predicted data.
 ![local_smooth_data](https://user-images.githubusercontent.com/50672613/207284509-b3509199-bd5e-4baf-b98e-b89818ee5f7d.png)
 **Fig.10:** This graph shows the smoothed, raw temperature data of the room
 
-##### Smoothed temperature data with predictions
-![]()
-
-**Fig.11:** This graph shows the smoothed version of the temperature data of the room with non-linear model, 12 hour prediction, min, max, mean
 ##### Smoothed humidity data
-![]()
+![local_smooth_hum](https://user-images.githubusercontent.com/50672613/207313500-77b5cc88-730a-4441-87e6-fe21fcd57ae3.png)
 
-**Fig.12:** This graph shows the smoothed raw humidity data of the campus
-##### Smoothed humidity data with predictions
-![]()
 
-**Fig.13:** This graph shows the smoothed version of the humidity data of the campus with non-linear model, 12 hour prediction, min, max, mean
+**Fig.11:** This graph shows the smoothed raw humidity data of the campus
+
+##### Smoothed local data with predictions
+![local_data](https://user-images.githubusercontent.com/50672613/207313582-f05fb3bb-836b-4543-b7b6-69635feb7539.png)
+
+
+**Fig.12:** This graph shows the smoothed version of the humidity data of the campus with non-linear model, 12 hour prediction, min, max, mean
