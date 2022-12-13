@@ -165,6 +165,13 @@ This function can be used to get the readings from the registered sensors in "ht
 | User registration                       | Non-functional | user = ({"username": "Krish&Thumula", "password":"###"}).json()                                                                                                                                                                                                                                                                                                                                                            | The same dictionary is returned                                                                |
 | Posting new sensors                     | Non-functional | temp_hum = ({ <br>              "name": f"Krish&Thumula Hum{i}", <br>              "unit": "%", <br>              "location": "R1-14B", <br>              "type": "Humditiy"<br>               }).json()<br>temp_temp = ({ <br>              "name": f"Krish&Thumula Temp{i}", <br>              "unit": "C", <br>              "location": "R1-14B", <br>              "type": "Temperature" <br>               }).json() | The server returns the details of the sensor registered in the server                          |
 | Prediction graphs                       | Non-functional | The cubic equation for the graph                                                                                                                                                                                                                                                                                                                                                                                           | The predictedion is given by a blue crossed line which will be connected<br>to the cubic graph |
+
+### Computational skills
+#### Random graph type 1
+#### Random graph type 2
+#### Random graph type 3
+#### Random graph type 4
+
 # Criteria D: Functionality
 
 A 7 min video demonstrating the proposed solution with narration 
