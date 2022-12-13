@@ -231,7 +231,7 @@ For these graphs we first got the raw data from the server that we uploaded to t
 
 # Criteria D: Functionality
 
-[A 7 min video demonstrating the proposed solution with narration]() 
+[A 7 min video demonstrating the proposed solution with narration](https://youtu.be/nIOWf1P1JpI) 
 
 [The poster](https://github.com/krishank-gupta/unit2_project/blob/main/Poster_of_Krish%26Thumula.pdf)
 
