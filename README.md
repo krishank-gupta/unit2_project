@@ -66,8 +66,8 @@ Considering the budgetary constrains of the client and the hardware requirements
 | 7       | Adding the new sensors to the server               | Having stored sensors in the server                                                                    | 20 min        | Dec 04                 | C         |
 | 8       | Created the loop to upload the data  to the server | Uploading the data gotten by the sensors to the main server                                            | 10 min        | Dec 05                 | C         |
 | 9       | Creating the graphs                                | Have a visual representation of the data obtained by the  sensors inside and outside the dormitory.    | 3 hrs          | Dec 13                 | C         |
-| 10      | Creating the poster                                | Have a summary of introduction, materials and methods,  results, conclusions and references            | 1 hr          | Dec 13                 | C         |
-| 11      | Creating the video                                 | Present how the solution works using the poster created  earlier                                       | 30 mins       | Dec 13                 | C         |
+| 10      | Creating the poster                                | Have a summary of introduction, materials and methods,  results, conclusions and references            | 1 hr          | Dec 13                 | D         |
+| 11      | Creating the video                                 | Present how the solution works using the poster created  earlier                                       | 30 mins       | Dec 13                 | D         |
 ## Test Plan
 
 # Criteria C: Development
