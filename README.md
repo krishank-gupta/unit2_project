@@ -89,7 +89,7 @@ Considering the budgetary constrains of the client and the hardware requirements
 14. Adafruit_DHT library
 15. Requests library
 16. API commands
-
+17. Data smoothing
 
 
 ## Development
